@@ -1,0 +1,92 @@
+# =====================================
+# Django + Django Channels .gitignore
+# =====================================
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# VSCode & PyCharm
+.vscode/
+.idea/
+
+# Django related files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+*.db
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Django migrations (optional - only if auto-generated often)
+# Comment this if you want migrations tracked
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Local settings (if separated)
+local_settings.py
+.env
+*.env
+
+# Redis or Channels related
+# Redis dump files (if used locally)
+dump.rdb
+*.rdb
+
+# Coverage and testing
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+test_results/
+
+# Celery (if you use background tasks)
+celerybeat-schedule
+celerybeat.pid
+
+# Logs and debug
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Static & Media files
+/static/
+/media/
+
+# Node / frontend related (if you use WebSockets dashboard or UI)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+Dockerfile*
+docker-compose*.yml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
